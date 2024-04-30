@@ -193,6 +193,11 @@
 		compatible = "bosch,bme680";
 		reg = <0x76>;
 	};
+
+	vm3011: vm3011@60 {
+		compatible = "vesper,vm3011";
+		reg = <0x60>;
+	};
 };
 
 &spi3 {
